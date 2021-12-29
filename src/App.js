@@ -6,7 +6,7 @@ function App() {
   const [top, settop] = useState(null);
 
   const handleEnter = () => {
-    setLeft(Math.floor(Math.random() * 600) + 1);
+    setLeft(Math.floor(Math.random() * 500) + 1);
     settop(Math.floor(Math.random() * 300) + 1);
   };
 
