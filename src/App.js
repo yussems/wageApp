@@ -20,10 +20,10 @@ function App() {
         <div className="App">
           <h3>Maaşınıza zam istiyor musunuz?</h3>
           <div className="button">
-            <button className="btnFirst">Evet</button>
+            <button className="btnFirst">Hayır</button>
 
             <button onMouseEnter={handleEnter} className="btnSecond" style={{ left: left, top: top }}>
-              Hayır
+              Evet
             </button>
           </div>
         </div>
