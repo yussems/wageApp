@@ -47,6 +47,11 @@ h3 {
   border-bottom-right-radius: 10px;
   position: relative;
 }
+.button.active{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 button {
   width: 75px;
   height: 40px;
@@ -59,7 +64,7 @@ button {
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 button:hover {
-  transform: scale(.9);
+  transform: scale(0.9);
 }
 .btnFirst {
   margin-left: 20%;
@@ -67,4 +72,5 @@ button:hover {
 .btnSecond {
   position: absolute;
   right: 20%;
+ 
 }
