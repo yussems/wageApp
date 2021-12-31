@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   const [left, setLeft] = useState(null);
   const [top, settop] = useState(null);
-  const [click, setCLick] = useState(false);
+  const [click, setCLick] = useState(true);
   const [active, setActive] = useState('');
 
   const handleEnter = () => {
@@ -30,7 +30,7 @@ function App() {
           <h3>Maaşınıza zam istiyor musunuz?</h3>
           <div className={`button ${active}`}>
             {click ? (
-              <h4 style={{textAlign:'center'}}>Maaşınıza zammı hak ettiniz?</h4>
+              <h4 style={{width:'100%', textAlign:'center'}}>Maaşınıza zammı hak ettiniz?</h4>
             ) : (
               <>
                 <button className="btnFirst">Evet</button>
