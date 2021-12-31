@@ -16,11 +16,13 @@ function App() {
     setActive('active')
   };
 
-  
+  const uri = 'https://cdn.discordapp.com/attachments/814898875776237598/925830283268345936/bpc-logo_white.png'
   return (
     <div className="container">
       <div className="header">
+        <img style={{width:'100px',height:'40px',objectFit:'cover'}} src={uri} alt="boyasan" />
         <h1>Yıl sonu anketi</h1>
+
       </div>
 
       <div className="content">
