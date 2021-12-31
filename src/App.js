@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   const [left, setLeft] = useState(null);
   const [top, settop] = useState(null);
-  const [click, setCLick] = useState(true);
+  const [click, setCLick] = useState(false);
   const [active, setActive] = useState('');
 
   const handleEnter = () => {
