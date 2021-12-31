@@ -33,7 +33,7 @@ function App() {
               <h4 style={{width:'100%', textAlign:'center'}}>Maaşınıza zammı hak ettiniz?</h4>
             ) : (
               <>
-                <button className="btnFirst">Evet</button>
+                <button className="btnFirst">Hayır</button>
 
                 <button
                   onClick={handleClick}
@@ -41,7 +41,7 @@ function App() {
                   className="btnSecond"
                   style={{ left: `${left}px`, top: `${top}px` }}
                 >
-                  Hayır
+                  Evet
                 </button>
               </>
             )}
