@@ -1,5 +1,5 @@
 eğlence amaçlı yapılmış. maaş zammı istiyor musun? sorusu 
-link : [vercel](https://wage-app.vercel.app/)
+link : [Wage-app.com](https://wage-app.vercel.app/)
 
 
 
